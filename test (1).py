@@ -141,10 +141,10 @@ THRESHOLDS = {
     'asian': {
         #https://www.realestate-tokyo.com/living-in-tokyo/japan-info/clothing-sizes-in-japan/#:~:text=According%20to%20%20%20%2C,the%20average%20Japanese%20person%E2%80%99s%20dimensions
         #https://en.wikivoyage.org/wiki/Clothing_sizes#:~:text=Korean%20casual%20%2F%20underwear%20,cm%29%207477808386899296100104108112116120124
-        'chest':    [80, 85, 90, 95, 100], # Approx Chest Circumference
-        'waist':    [65, 70, 75, 80, 85],# Approx Waist Circumference
-        'hip_circ': [85, 90, 95, 100, 105],# Approx Hip Circumference
-        'shoulder': [36, 40, 44, 48, 52]    # Approx Shoulder Width
+        'chest':    [80, 85, 90, 95, 100], 
+        'waist':    [65, 70, 75, 80, 85],
+        'hip_circ': [85, 90, 95, 100, 105],
+        'shoulder': [36, 40, 44, 48, 52]  
     },
     'european': {
         #https://www.apparelsearch.com/definitions/miscellaneous/en_13402_european_clothing_size_standard.htm#:~:text=Meaning%20Code%20Chest%20girth%20,143
