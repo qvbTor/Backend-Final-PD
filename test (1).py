@@ -139,25 +139,28 @@ SIZES = ["XS", "S", "M", "L", "XL", "XXL"]
 
 THRESHOLDS = {
     'asian': {
-        # Generally smaller fit for the same label
-        'chest':    [86, 92, 98, 104, 110], # Approx Chest Circumference
-        'waist':    [72, 78, 84, 90, 96],   # Approx Waist Circumference
-        'hip_circ': [88, 94, 100, 106, 112], # Approx Hip Circumference
-        'shoulder': [40, 42, 44, 46, 48]    # Approx Shoulder Width
+        #https://www.realestate-tokyo.com/living-in-tokyo/japan-info/clothing-sizes-in-japan/#:~:text=According%20to%20%20%20%2C,the%20average%20Japanese%20person%E2%80%99s%20dimensions
+        #https://en.wikivoyage.org/wiki/Clothing_sizes#:~:text=Korean%20casual%20%2F%20underwear%20,cm%29%207477808386899296100104108112116120124
+        'chest':    [80, 85, 90, 95, 100], # Approx Chest Circumference
+        'waist':    [65, 70, 75, 80, 85],# Approx Waist Circumference
+        'hip_circ': [85, 90, 95, 100, 105],# Approx Hip Circumference
+        'shoulder': [36, 40, 44, 48, 52]    # Approx Shoulder Width
     },
     'european': {
-        # Moderate fit
-        'chest':    [90, 96, 102, 108, 114],
-        'waist':    [76, 82, 88, 94, 100],
-        'hip_circ': [92, 98, 104, 110, 116],
-        'shoulder': [41, 43, 45, 47, 49]
+        #https://www.apparelsearch.com/definitions/miscellaneous/en_13402_european_clothing_size_standard.htm#:~:text=Meaning%20Code%20Chest%20girth%20,143
+        #https://en.wikipedia.org/wiki/Clothing_sizes#:~:text=results%20in%20country,Size%20designation%20of%20clothes
+        'chest':    [86, 94, 102, 110, 118],
+        'waist':    [74, 82, 90, 98, 106],
+        'hip_circ': [91, 99, 107, 115, 123],
+        'shoulder': [38, 42, 46, 50, 54]
     },
     'western': {
-        # Generally larger/looser fit for the same label (often US-based)
-        'chest':    [94, 100, 106, 112, 118],
-        'waist':    [80, 86, 92, 98, 104],
-        'hip_circ': [96, 102, 108, 114, 120],
-        'shoulder': [42, 44, 46, 48, 50]
+        #https://woodiesclothing.com/measuring-101-measure-shoulder-width/#:~:text=%2A%20Small%20%28S%29%3A%2016,21%20inches
+        #https://shop.alz.org/App_Themes/ALZ_Public_Responsive/docs/SizeChart.pdf#:~:text=Men%27s%20SM%20MD%20LG%20XL,36.5
+        'chest':    [86, 94, 102, 112, 122],
+        'waist':    [71, 79, 87, 97, 107],
+        'hip_circ': [91, 99, 107, 117, 127],
+        'shoulder': [40, 44, 48, 52, 56]
     }
 }
 
